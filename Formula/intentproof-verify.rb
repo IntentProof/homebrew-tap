@@ -51,6 +51,6 @@ class IntentproofVerify < Formula
   end
 
   test do
-    assert_match "Usage:", shell_output("#{bin}/intentproof-verify --help", 1)
+    assert_match "Usage:", shell_output("#{bin}/intentproof-verify --help 2>&1", 1)
   end
 end
