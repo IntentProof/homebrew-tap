@@ -7,7 +7,7 @@ class IntentproofVerify < Formula
 
   desc "IntentProof offline verifier command-line tool"
   homepage "https://github.com/IntentProof/intentproof-tools"
-  version "0.0.0-release-dryrun.3"
+  version "0.0.0-release-dryrun.5"
   license "Apache-2.0"
 
   depends_on "cosign" => :build
@@ -15,32 +15,32 @@ class IntentproofVerify < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/IntentProof/intentproof-tools/releases/download/v0.0.0-release-dryrun.3/intentproof-verify_0.0.0-release-dryrun.3_darwin_arm64.tar.gz"
-      sha256 "f95eefb1923f129ae398cd46c81cb8bf523f6e438ccdfef7a2b4f49a585fdad8"
+      url "https://github.com/IntentProof/intentproof-tools/releases/download/v0.0.0-release-dryrun.5/intentproof-verify_0.0.0-release-dryrun.5_darwin_arm64.tar.gz"
+      sha256 "c2267d059e3f3e808bb161476096b47e4f1e88c4d8dbf30c19cdbd3523fc4f36"
 
       resource "signature" do
-        url "https://github.com/IntentProof/intentproof-tools/releases/download/v0.0.0-release-dryrun.3/intentproof-verify_0.0.0-release-dryrun.3_darwin_arm64.tar.gz.sig"
-        sha256 "41aa3f53e2d2932f8ff5fd0c57ff5657a5b58e8ef3ccd53677f18253bca47649"
+        url "https://github.com/IntentProof/intentproof-tools/releases/download/v0.0.0-release-dryrun.5/intentproof-verify_0.0.0-release-dryrun.5_darwin_arm64.tar.gz.sig"
+        sha256 "2de365fe74fa5d756614a3a36308be38609e619eee2cde9074b03a6bf5ae6515"
       end
 
       resource "sigstore" do
-        url "https://github.com/IntentProof/intentproof-tools/releases/download/v0.0.0-release-dryrun.3/intentproof-verify_0.0.0-release-dryrun.3_darwin_arm64.tar.gz.sigstore.json"
-        sha256 "e27e351f5af43b844b36160aa36e647e75250a0ccdb886e0980407b5760626a2"
+        url "https://github.com/IntentProof/intentproof-tools/releases/download/v0.0.0-release-dryrun.5/intentproof-verify_0.0.0-release-dryrun.5_darwin_arm64.tar.gz.sigstore.json"
+        sha256 "dec5bb4f99e7e3c606d59bc8928d460d25d9fb156aae3e082c748a4ec518f001"
       end
     end
 
     on_intel do
-      url "https://github.com/IntentProof/intentproof-tools/releases/download/v0.0.0-release-dryrun.3/intentproof-verify_0.0.0-release-dryrun.3_darwin_amd64.tar.gz"
-      sha256 "739b71ff0f671f0db7dc4a31d766c43732b49363637635bd85a389b906e36338"
+      url "https://github.com/IntentProof/intentproof-tools/releases/download/v0.0.0-release-dryrun.5/intentproof-verify_0.0.0-release-dryrun.5_darwin_amd64.tar.gz"
+      sha256 "85f071adb6665f72734de422118927ec75952fe80a9bccb62091c8d6987ee755"
 
       resource "signature" do
-        url "https://github.com/IntentProof/intentproof-tools/releases/download/v0.0.0-release-dryrun.3/intentproof-verify_0.0.0-release-dryrun.3_darwin_amd64.tar.gz.sig"
-        sha256 "bbf7bf6a6ea1368b53bbc4b2c3e3c388f7008b384ab3b8896a9c0c153dd1b41b"
+        url "https://github.com/IntentProof/intentproof-tools/releases/download/v0.0.0-release-dryrun.5/intentproof-verify_0.0.0-release-dryrun.5_darwin_amd64.tar.gz.sig"
+        sha256 "87294401ef844af92f960eeb4d1c6ab7ef9f8cc985120bca1778c4fdd26ca738"
       end
 
       resource "sigstore" do
-        url "https://github.com/IntentProof/intentproof-tools/releases/download/v0.0.0-release-dryrun.3/intentproof-verify_0.0.0-release-dryrun.3_darwin_amd64.tar.gz.sigstore.json"
-        sha256 "f2687278781694b1d9b58d83030accaa0df9a90eef8c72ac5cb8bbbae87d9498"
+        url "https://github.com/IntentProof/intentproof-tools/releases/download/v0.0.0-release-dryrun.5/intentproof-verify_0.0.0-release-dryrun.5_darwin_amd64.tar.gz.sigstore.json"
+        sha256 "6fccbd2000660f7a55642bdb26b86347c9c5bef19cb3cd7697626ec5b52bc589"
       end
     end
   end
