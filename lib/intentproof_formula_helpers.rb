@@ -3,7 +3,7 @@
 
 # Shared Cosign verification helper for IntentProof formulae.
 module IntentproofFormulaHelpers
-  INTENTPROOF_CERT_IDENTITY_REGEXP = "https://github.com/IntentProof/intentproof-tools/"
+  INTENTPROOF_CERT_IDENTITY_REGEXP = "https://github\\.com/IntentProof/intentproof-tools/"
   INTENTPROOF_OIDC_ISSUER = "https://token.actions.githubusercontent.com"
 
   def verify_intentproof_artifact!
