@@ -51,6 +51,6 @@ class Intentproof < Formula
   end
 
   test do
-    assert_match "Usage:", shell_output("#{bin}/intentproof --help")
+    assert_match "Usage: intentproof <command>", shell_output("#{bin}/intentproof 2>&1", 1)
   end
 end
