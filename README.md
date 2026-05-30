@@ -21,4 +21,4 @@ see [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## License
 
-MIT — see [LICENSE](LICENSE) and [TRADEMARK.md](TRADEMARK.md).
+MIT — see [LICENSE](LICENSE).
