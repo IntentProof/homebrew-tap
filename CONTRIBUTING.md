@@ -1,25 +1,23 @@
-# Contributing to IntentProof Homebrew Tap
+# Contributing to homebrew-tap
 
-Thanks for your interest in IntentProof.
+Thank you for helping improve IntentProof.
 
-## Issues welcome
+## How to help
 
-Please report formula bugs, install failures, and verification regressions via
-[GitHub Issues](https://github.com/IntentProof/homebrew-tap/issues).
+We welcome [GitHub Issues](https://github.com/IntentProof/homebrew-tap/issues)
+and pull requests.
 
-We do **not** accept unsolicited pull requests from outside the
-maintainer team. Formula version bumps are opened by maintainer automation
-after [`intentproof-tools`](https://github.com/IntentProof/intentproof-tools)
-releases. If you are a customer or partner with a change that must land
-upstream, contact IntentProof, Inc. before opening a PR.
+Release version bumps are usually opened by automation after
+[`intentproof-tools`](https://github.com/IntentProof/intentproof-tools)
+releases. Manual PRs are still welcome for formula bugs, Cosign check fixes,
+and documentation.
 
-## Trademark
+## Pull requests
 
-"IntentProof" and "Verified by IntentProof" are trademarks of
-IntentProof, Inc. Apache 2.0 grants a copyright license; it does not grant a
-trademark license. See [`TRADEMARK.md`](TRADEMARK.md).
+- Test `brew install` locally when you change a formula.
+- Keep Cosign verification steps intact unless you document a vetted alternative.
 
 ## License
 
-Formula metadata and helper scripts in this repository are licensed under the
-Apache License 2.0 (see [`LICENSE`](LICENSE)).
+By contributing, you agree your contributions are licensed under the MIT
+License (see `LICENSE`).
